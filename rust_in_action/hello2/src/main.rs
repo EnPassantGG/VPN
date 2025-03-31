@@ -8,6 +8,7 @@
 fn greet_world() {
     println!("Hello, world!");
     // Declares a block of code for a length of chars
+    // Strings = UTF-8 size
     let southern_germany = "Grüß Gott!";
     let japan = "ハロー・ワールド";
 
