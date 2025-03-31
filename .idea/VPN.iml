@@ -2,12 +2,14 @@
 <module type="EMPTY_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/rust_in_action/hello/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/rust_in_action/hello2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/vpn_project/src" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/rust_in_action/hello/target" />
-      <excludeFolder url="file://$MODULE_DIR$/rust_in_action/hello2/target" />
+      <sourceFolder url="file://$MODULE_DIR$/rust_in_action/ch1/firstRustCode/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust_in_action/ch1/helloMultipleLanguages/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust_in_action/ch1/penguins/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/vpn_project/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/firstRustCode/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/helloMultipleLanguages/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/penguins/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
