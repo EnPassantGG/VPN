@@ -6,10 +6,14 @@
       <sourceFolder url="file://$MODULE_DIR$/rust_in_action/ch1/firstRustCode/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust_in_action/ch1/helloMultipleLanguages/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust_in_action/ch1/penguins/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hello_cargo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wsl_test/Compile_Time_Speed/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/vpn_project/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/firstRustCode/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/helloMultipleLanguages/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/penguins/target" />
+      <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
+      <excludeFolder url="file://$MODULE_DIR$/wsl_test/Compile_Time_Speed/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
