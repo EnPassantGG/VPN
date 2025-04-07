@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/rust-lang/variables/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/wsl_test/Compile_Time_Speed/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust-lang/data_types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust-lang/branches/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust-lang/functions/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/vpn_project/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/firstRustCode/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/helloMultipleLanguages/target" />
@@ -18,6 +20,8 @@
       <excludeFolder url="file://$MODULE_DIR$/rust-lang/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/wsl_test/Compile_Time_Speed/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust-lang/data_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust-lang/branches/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust-lang/functions/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
