@@ -1,9 +1,12 @@
+mod functions;
+
 fn main() {
     let s = "stack"; // immutable - placed on the stack
     println!("{s}");
 
     let mut s = String::from("heap"); // mutable - placed on the heap
     // let s_copy = s;
+    //
     // The above code doesn't work because if s goes out of scope then it
     // will free the memory. Then s_copy goes out of scope and tries to free
     // memory that has already been freed, resulting in a "double free error."
@@ -11,6 +14,18 @@ fn main() {
     // pointer. The last one is important because it just copies the pointer
     // and not the data in the heap. This results in 2 pointers and only 1 set
     // of data, causing that error when "drop" is called.
+
+    let _s_copy = s.clone();
+    // This creates a deep copy
+
     s.push_str(", is where this is at");
     println!("{s}");
+
+    let x = 5;
+    let y = x;
+
+    println!("x = {x}, y = {y}");
+
+    functions::side_program();
+
 } // s (heap version) goes out of scope and the memory is freed
