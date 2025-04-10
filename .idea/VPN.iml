@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/rust-lang/branches/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust-lang/functions/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust-lang/guessing_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust-lang/ownership/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/vpn_project/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/firstRustCode/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/helloMultipleLanguages/target" />
@@ -24,6 +25,7 @@
       <excludeFolder url="file://$MODULE_DIR$/rust-lang/branches/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust-lang/functions/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust-lang/guessing_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust-lang/ownership/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
