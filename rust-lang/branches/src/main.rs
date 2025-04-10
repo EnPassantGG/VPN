@@ -12,4 +12,5 @@ fn main() {
 
     let celsius = fahrenheit_to_celsius(32f32);
     println!("celsius: {celsius}");
+
 }
