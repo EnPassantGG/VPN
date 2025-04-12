@@ -1,7 +1,13 @@
 fn main() {
+    // String slices
     let word = String::from("Spacing 7");
-    let len = first_word(&word);
+    let len = first_word_slice(&word);
     println!("Word: {}, Function: {}", word, len);
+
+    // Other slices (integer)
+    let a = [1, 2, 3, 4, 5];
+    let slice = &a[1..3];
+    assert_eq!(slice, &[2, 3]);
 }
 
 // We can be more efficient by returning a slice, thereby 'binding'
@@ -20,7 +26,7 @@ fn first_word(s: &String) -> usize {
     s.len()
 }
 
-fn first_word_slice(s: &String) -> &str {
+fn first_word_slice(s: &str) -> &str {
     let bytes = s.as_bytes();
 
     for (i, &item) in bytes.iter().enumerate() {
