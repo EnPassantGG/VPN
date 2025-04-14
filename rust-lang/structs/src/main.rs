@@ -1,6 +1,7 @@
 mod tuple_struct;
 mod example;
 mod debug;
+mod methods;
 
 struct User {
     active: bool,
@@ -51,4 +52,7 @@ fn main() {
 
     // How to print debug statements
     debug::pretty_print();
+
+    // Methods (use structs)
+    methods::methods();
 }
