@@ -12,5 +12,14 @@ pub fn pretty_print() {
         height: 4,
     };
 
-    println!("cube1 is {cube1:?}")
+    println!("cube1 is {cube1:?}");
+
+    let scale = 2;
+    let cube2 = Cube {
+        length: 10,
+        width: dbg!(2 * scale),
+        height: 4,
+    };
+
+    dbg!(&cube2);
 }
