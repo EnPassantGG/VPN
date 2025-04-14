@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/rust-lang/references/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust-lang/slice/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rust-lang/structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rust-lang/enums/enumeration/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/vpn_project/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/firstRustCode/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust_in_action/ch1/helloMultipleLanguages/target" />
@@ -32,6 +33,7 @@
       <excludeFolder url="file://$MODULE_DIR$/rust-lang/references/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust-lang/slice/target" />
       <excludeFolder url="file://$MODULE_DIR$/rust-lang/structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rust-lang/enums/enumeration/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
